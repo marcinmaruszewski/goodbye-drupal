@@ -1,10 +1,10 @@
 # Mission: Modern TypeScript Product Delivery
 
 ## Why
-Move from leading Drupal/PHP projects to confidently designing and delivering modern TypeScript products. Learn through a useful, production-grade Collaborative Exploration application rather than through disconnected examples, and turn its real engineering decisions into reusable lessons.
+Move from leading Drupal/PHP projects to confidently designing and delivering modern TypeScript products. Learn through a production-grade multi-user Todo and Canvas application rather than through disconnected examples, and turn its real engineering decisions into reusable lessons.
 
 ## Success looks like
-- Deliver a product in which a small team can explore a topic together and progressively move from simple contributions to a shared visual canvas.
+- Deliver a product in which Users organize Todo Lists and Canvases within shared Workspaces.
 - Design, implement, and explain a modular NestJS/Fastify GraphQL backend and a Next.js frontend.
 - Deliver the application securely to GCP Cloud Run with containers, infrastructure as code, GitHub Actions, and production observability.
 - Make and communicate sound trade-offs across application architecture, identity, cloud infrastructure, and delivery.
