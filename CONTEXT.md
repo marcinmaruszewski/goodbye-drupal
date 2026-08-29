@@ -1,8 +1,8 @@
 # Todo Workspace
 
-This context describes people organizing Todos and visual Canvases within shared Workspaces. The glossary names product concepts independently of their technical implementation.
+This context describes people organizing Todos and visual Canvases within shared Workspaces, together with the learning workflow used while building the product. The glossary names project concepts independently of their technical implementation.
 
-## Language
+## Product language
 
 **User**:
 A person with an application identity who may participate in many Workspaces.
@@ -31,3 +31,29 @@ _Avoid_: Task
 **Canvas**:
 A visual diagram belonging to one Workspace.
 _Avoid_: Exploration, board
+
+## Learning language
+
+**Learning Opportunity**:
+A product decision or implementation change that introduces a new mental model, consequential boundary, costly decision, or unverified capability.
+_Avoid_: Lesson candidate, learning trigger
+
+**Learning Loop**:
+A bounded learning cycle connecting retrieval, targeted explanation, authentic practice, feedback, and a recorded outcome to product work.
+_Avoid_: Course unit, lesson
+
+**Learning Evidence**:
+An observable demonstration that a person can explain, evaluate, diagnose, or modify the concept being learned.
+_Avoid_: Completion, attendance
+
+**Learning Gate**:
+A process constraint that pauses only the product work dependent on an unresolved Learning Opportunity until Learning Evidence exists.
+_Avoid_: CI gate, course prerequisite
+
+**Reference Note**:
+Durable project-specific knowledge promoted from a Learning Loop for later reuse.
+_Avoid_: Lesson transcript, generic documentation copy
+
+**Personal Learning Record**:
+A person's history of Learning Evidence, current proficiency, and scheduled retrieval for a topic.
+_Avoid_: Private learning record, conversation transcript
