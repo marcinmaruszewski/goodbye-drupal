@@ -20,6 +20,14 @@ _Avoid_: User, account
 A Member's authority within a Workspace.
 _Avoid_: User type, access level
 
+**Owner**:
+A Member whose Role includes managing Members and the Workspace lifecycle. All Owners are peers, and an active Workspace always has at least one.
+_Avoid_: Administrator, primary Owner, Workspace creator
+
+**Invitation**:
+A revocable, expiring offer from an Owner for the User who controls a specific verified email address to become a Member. An Invitation grants no Workspace access before acceptance.
+_Avoid_: Access link, share link
+
 **Todo List**:
 A named collection of Todos belonging to one Workspace.
 _Avoid_: Project, board
